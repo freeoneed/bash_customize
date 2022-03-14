@@ -7,6 +7,8 @@ if grep -e debian /etc/apt/sources.list; then
 else
     echo "deb http://ftp.debian.org/debian stretch main contrib non-free" >> /etc/apt/sources.list
     echo "deb-src http://ftp.debian.org/debian stretch main contrib non-free" >> /etc/apt/sources.list
+    gpg --keyserver pgpkeys.mit.edu --recv-key 04EE7237B7D453EC
+    gpg -a --export 04EE7237B7D453EC | apt-key add -
     echo "[INFO] Repository update!"
 fi
 
