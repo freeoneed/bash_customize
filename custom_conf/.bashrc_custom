@@ -9,6 +9,22 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
+alias untar='tar -zxvf '
+alias wget='wget -c '
+alias getpass="openssl rand -base64 6"
+
+
+alias iptlist='sudo /sbin/iptables -L -n -v --line-numbers'
+alias iptlistin='sudo /sbin/iptables -L INPUT -n -v --line-numbers'
+alias iptlistout='sudo /sbin/iptables -L OUTPUT -n -v --line-numbers'
+alias iptlistfw='sudo /sbin/iptables -L FORWARD -n -v --line-numbers'
+
+alias ports='netstat -tulpan'
+
+
+
+
+
 #history tuning
 HISTTIMEFORMAT="%F %T " #datetime in history
 HISTCONTROL=ignoredups #ignore duplicate commands
