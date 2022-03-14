@@ -15,7 +15,7 @@ fi
 echo "[INFO] Start script..."
 sudo apt update
 echo "[INFO] Update packages complete! Try install..."
-sudo apt install ncdu tmux mc htop curl wget git slurm tcpdump ccze -y
+sudo apt install ncdu tmux mc htop curl wget git slurm tcpdump ccze openssl -y
 echo "[INFO] Instalation complete! Tuning .bashrc file..."
 sudo cp custom_conf/.bashrc_custom ~/
 sudo cp custom_conf/.tmux.conf ~/
