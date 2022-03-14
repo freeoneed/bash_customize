@@ -1,0 +1,19 @@
+# This file contain custom settings for main file .bashrc in /home/$USER/
+# For apply this config type in cli "source /home/$USER/bashrc_custom/bashrc"
+
+# aliases block
+alias ll='ls -lh --color=auto'
+alias ls='ls --color=auto'
+
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+#history tuning
+HISTTIMEFORMAT="%F %T " #datetime in history
+HISTCONTROL=ignoredups #ignore duplicate commands
+HISTSIZE=3000 #history size
+HISTFILESIZE=3000 #history size
+
+# cli theme
+prompt_string='PS1="\[\033[38;5;10m\][\t]\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;45m\]\h\[$(tput sgr0)\] :: \[$(tput sgr0)\]\[\033[38;5;11m\]\u\[$(tput sgr0)\] [\[$(tput sgr0)\]\[\033[38;5;45m\]\w\[$(tput sgr0)\]] \[$(tput sgr0)\]"'
