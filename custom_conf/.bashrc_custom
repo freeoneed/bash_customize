@@ -16,4 +16,4 @@ HISTSIZE=3000 #history size
 HISTFILESIZE=3000 #history size
 
 # cli theme
-prompt_string='PS1="\[\033[38;5;10m\][\t]\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;45m\]\h\[$(tput sgr0)\] :: \[$(tput sgr0)\]\[\033[38;5;11m\]\u\[$(tput sgr0)\] [\[$(tput sgr0)\]\[\033[38;5;45m\]\w\[$(tput sgr0)\]] \[$(tput sgr0)\]"'
+PS1="\[\033[38;5;10m\][\t]\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;45m\]\h\[$(tput sgr0)\] :: \[$(tput sgr0)\]\[\033[38;5;11m\]\u\[$(tput sgr0)\] [\[$(tput sgr0)\]\[\033[38;5;45m\]\w\[$(tput sgr0)\]] \[$(tput sgr0)\]"
