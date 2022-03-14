@@ -2,7 +2,7 @@
 
 
 #add repo
-if grep -e debian /etc/apt/sources.list; then.
+if grep -e debian /etc/apt/sources.list; then
     echo "[INFO] Repositpry already exist!"
 else
     echo "deb http://ftp.debian.org/debian stretch main contrib non-free" >> /etc/apt/sources.list
