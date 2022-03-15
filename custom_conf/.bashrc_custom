@@ -12,7 +12,7 @@ alias egrep='egrep --color=auto'
 alias untar='tar -zxvf '
 alias wget='wget -c '
 alias getpass="openssl rand -base64 6"
-
+alias service="sudo service --status-all"
 
 alias iptlist='sudo /sbin/iptables -L -n -v --line-numbers'
 alias iptlistin='sudo /sbin/iptables -L INPUT -n -v --line-numbers'
