@@ -32,4 +32,5 @@ HISTSIZE=3000 #history size
 HISTFILESIZE=3000 #history size
 
 # cli theme
-PS1="\[\033[38;5;10m\][\t]\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;45m\]\h\[$(tput sgr0)\] :: \[$(tput sgr0)\]\[\033[38;5;11m\]\u\[$(tput sgr0)\] [\[$(tput sgr0)\]\[\033[38;5;45m\]\w\[$(tput sgr0)\]] \[$(tput sgr0)\]"
+PS1="\[\033[38;5;10m\][\t]\[$(tput sgr0)\]\n[\[$(tput sgr0)\]\[\033[38;5;160m\]\u\[$(tput sgr0)\]][\[$(tput sgr0)\]\[\033[38;5;39m\]\h\[$(tput sgr0)\]][\[$(tput sgr0)\]\[\033[38;5;10m\]\w\[$(tput sgr0)\]]\[$(tput sgr0)\]\[\033[38;5;160m\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
+#PS1="\[\033[38;5;10m\][\t]\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;45m\]\h\[$(tput sgr0)\] :: \[$(tput sgr0)\]\[\033[38;5;11m\]\u\[$(tput sgr0)\] [\[$(tput sgr0)\]\[\033[38;5;45m\]\w\[$(tput sgr0)\]] \[$(tput sgr0)\]"
